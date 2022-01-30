@@ -1,0 +1,160 @@
+/* -------------------------------------------------- home.html --------------------------------------------------*/
+body {
+    overflow-x: hidden;
+    padding-top: 0px;
+    background-color: white;}
+@media (max-width: 979px) {
+body:not(#joinpage) {
+    padding-top: 0px;}}
+/* --------------- navbar -------------- */
+.banner-img{
+    background-image: url('/images/og-bg.jpeg');
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;}
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+/* @media only screen and (max-device-width: 1366px) {
+    .banner-img {
+      background-attachment: scroll;}} */
+.navbar{
+    transition: background-color 0.3s ease;
+    background-color: rgba(255,255,255,0);}
+.navbar, .fixed-top {
+    background-color: transparent;}
+.active{
+    font-weight: bolder;
+    vertical-align: middle;
+    padding-left: 90%;
+    border-bottom: 5px;
+    border-bottom: black;}
+.nav-link:hover{
+    transform: scale(1.05, 1.05);}
+.nav-link{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+ul li {
+    display: inline-block;
+    padding: 0 10px;}
+ul li ~ li {
+    border-left: 1px solid black;}
+/* ----------- title and home page stuff ------------ */
+.home-text h1{
+    /* font-family: 'Mochiy Pop P One', sans-serif; */
+    margin-top: 1.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;}
+#Xfont{
+    font-family: cursive;}
+#free {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: .1em;
+    text-decoration: none;
+    font-weight: lighter;}
+#stats{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: .05em;
+    font-weight: 600;
+    font-style: italic;}
+#readmore{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 1.5em;
+    /* opacity: 70%;} */}
+#mission, #testimonials, #press{
+    /* margin-top: 2em; */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+#mission h2, #testimonials h2, #press h2{
+    font-weight: 600;}
+#testimonials{
+    /* margin-top: 2em; */
+    background-color: #3a4664;}
+#testimonials h2{
+    color: white;
+    padding-bottom: .5em;}
+#testimonials .quotes{
+    padding: 1em;
+    background-color:white;}
+.test-auth{
+    font-weight: 500;
+    font-style: italic;}
+#press .state h4{
+    font-style: italic;}
+#mission{
+    background-color: #fcdcdc;}
+#press{
+    /* margin-top: 2em; */
+    background-color: #aaa;}
+/* #mission-text, .state{
+    padding: 1em;
+    background-color: white;
+} */
+
+/* ----------------------------------------------------- About -------------------------------------------------- */
+#about, #donate{
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+/* ----------------------------------------------------- Find a Tutor -------------------------------------------------- */
+#tutor-text, #our-tutors{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;}
+#our-tutors h1{
+    color:black;}
+#tutor-text{
+    margin-top: 75px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: #fcdcdc;}
+.card-title{
+    font-weight: 600;}
+#tutor-text h3{
+    font-weight: 600;
+    font-style: italic;}
+.user-pic {
+    width: 170px;
+    height: 170px;
+    overflow: hidden;
+    border-radius: 100%;
+    margin: 10px auto 10px;
+    border-left: 3px solid #ddd;
+    border-right: 3px solid #ddd;
+    border-top: 3px solid #eaa0a2;
+    border-bottom: 3px solid #eaa0a2;
+    transform: rotate(-30deg);
+    transition: 0.5s;}
+.card:hover .user-pic {
+    transform: rotate(0deg);
+    transform: scale(1.15);
+    box-shadow: 0px 0px 12px 0px #fcdcdc;}
+.card {
+    padding: 15px;
+    background-color: white;
+    margin: 20px 0px;
+    border-radius: 20px;
+    border: 1px solid #eee;
+    /* box-shadow: 0px 0px 8px 0px #3a4664; */
+    transition: 0.5s;}
+.card:hover {
+    box-shadow: 0px 0px 10px 0px #eaa0a2;
+    /* border: 1px solid #eaa0a2;} */}
+.card p {
+    color: black;}
+#our-tutors .btn:hover{
+    background-color: #3a4664;
+    color: white;}
+
+/* ----------------------------------------------------- Join Our Team -------------------------------------------------- */
+#joinpage{
+    background-color: #fcdcdc;
+    /* overflow-y: hidden; */}
+.form{
+    text-align: center;
+    margin-top: 90px;}
+
+/* ----------------------------------------------------- Contact Us -------------------------------------------------- */
+
+/* ----------------------------------------------------- Donate -------------------------------------------------- */
+
+/* ----------------------------------------------------- Footer --------------------------------------------------- */
