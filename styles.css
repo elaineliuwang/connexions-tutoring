@@ -6,12 +6,25 @@ body {
 @media (max-width: 979px) {
 body:not(#joinpage) {
     padding-top: 0px;}}
+.footer{
+    background-color: #2c2c2c;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+.footer a{
+    color: #8d8d8d;
+    text-decoration: none;}
+.footer h6{
+    color: #eeeeee;
+    font-weight: 600;}
+.footer img{
+    opacity: 70%;}
+
 /* --------------- navbar -------------- */
 .banner-img{
     background-image: url('/images/og-bg.jpeg');
-    height: 100%;
+    height: 100vh;
+    width: 100%;
     background-attachment: fixed;
-    background-position: center;
+    background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;}
 /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
@@ -23,7 +36,7 @@ body:not(#joinpage) {
     background-color: rgba(255,255,255,0);}
 .navbar, .fixed-top {
     background-color: transparent;}
-.active{
+.navactive{
     font-weight: bolder;
     vertical-align: middle;
     padding-left: 90%;
@@ -33,14 +46,13 @@ body:not(#joinpage) {
     transform: scale(1.05, 1.05);}
 .nav-link{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
-ul li {
+.navbar ul li {
     display: inline-block;
     padding: 0 10px;}
-ul li ~ li {
+.navbar ul li ~ li {
     border-left: 1px solid black;}
 /* ----------- title and home page stuff ------------ */
 .home-text h1{
-    /* font-family: 'Mochiy Pop P One', sans-serif; */
     margin-top: 1.5em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 600;}
@@ -67,43 +79,87 @@ ul li ~ li {
     font-weight: 600;}
 #testimonials{
     /* margin-top: 2em; */
-    background-color: #3a4664;}
+    background-image: url('/images/pencils-edit.jpg');
+    background-attachment: fixed;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;}
 #testimonials h2{
-    color: white;
+    color: #3a4664;
+    font-weight: bold;
+    -webkit-text-stroke-color: rgba(245, 245, 245, 0.794);
+    -webkit-text-stroke-width: 1px;
     padding-bottom: .5em;}
-#testimonials .quotes{
+#testimonials p{
     padding: 1em;
-    background-color:white;}
+    background-color: whitesmoke;
+    border-radius: 1em;
+    color: #3a4664;}
 .test-auth{
     font-weight: 500;
     font-style: italic;}
 #press .state h4{
     font-style: italic;}
+.state a{
+    color: #8d8d8d;}
+.state{
+    background-color: white;}
 #mission{
     background-color: #fcdcdc;}
+#mission h2, #mission p{
+    color: #3a4664;}
 #press{
-    /* margin-top: 2em; */
-    background-color: #aaa;}
-/* #mission-text, .state{
-    padding: 1em;
-    background-color: white;
-} */
+    background-color: #fcdcdc;}
+#press h2, #press h4, #press p{
+    color: #3a4664;}
+.miss-text{
+    background-color: white;}
+.block-color{
+    background-color: #eaa0a2;}
 
 /* ----------------------------------------------------- About -------------------------------------------------- */
-#about, #donate{
-    margin-top: 80px;
-    margin-bottom: 30px;
+#about, #donate, #contact-us{
+    margin-top: 75px;
+    background-color: #eeeeee;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+#about hr, #donate hr{
+    margin-left: 20%;
+    margin-right: 20%;}
+#who{
+    padding-bottom: 1em;}
+#formertutors ul li img{
+    border-radius: 20%;}
+.scrollable {
+    height: 500px; /* or any value */
+    overflow-y: auto;}
+#formertutors .active{
+    font-weight: bold;
+    color: rgba(224, 224, 224, 0.534);
+    outline: auto;
+    outline-width: thin;}
+#people{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;}
+#people h3{
+    font-weight: 600;
+    background-color: #fcdcdc;
+    padding: 10px;}
+#about h1, #about h2, #our-tutors h1, #contact-us h1, #donate h1{
+    text-shadow: 4px 3px 0px #eaa0a3b9;}
+#donate h3, #about h3{
+    letter-spacing: .05rem;
+    word-spacing: .1rem;
 }
 
 /* ----------------------------------------------------- Find a Tutor -------------------------------------------------- */
 #tutor-text, #our-tutors{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: white;}
+    background-color: #eeeeee;}
 #our-tutors h1{
     color:black;}
 #tutor-text{
     margin-top: 75px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     padding-top: 20px;
     padding-bottom: 10px;
     background-color: #fcdcdc;}
@@ -141,9 +197,9 @@ ul li ~ li {
     /* border: 1px solid #eaa0a2;} */}
 .card p {
     color: black;}
-#our-tutors .btn:hover{
-    background-color: #3a4664;
-    color: white;}
+/* #our-tutors .btn:hover{
+    background-color: #000000;
+    color: white;} */
 
 /* ----------------------------------------------------- Join Our Team -------------------------------------------------- */
 #joinpage{
@@ -154,7 +210,11 @@ ul li ~ li {
     margin-top: 90px;}
 
 /* ----------------------------------------------------- Contact Us -------------------------------------------------- */
+.instagram-media{
+    margin:0 auto !important;}
 
 /* ----------------------------------------------------- Donate -------------------------------------------------- */
-
+#cyc, #tgnc{
+    background-color: white;
+}
 /* ----------------------------------------------------- Footer --------------------------------------------------- */
