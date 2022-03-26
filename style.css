@@ -20,7 +20,7 @@ body:not(#joinpage) {
 
 /* --------------- navbar -------------- */
 .banner-img{
-    background-image: url('/assets/images/og-bg.jpeg');
+    background-image: url('/connexions-tutoring/assets/images/og-bg.jpeg');
     height: 100vh;
     width: 100%;
     background-attachment: fixed;
@@ -79,7 +79,7 @@ body:not(#joinpage) {
     font-weight: 600;}
 #testimonials{
     /* margin-top: 2em; */
-    background-image: url('/assets/images/pencils-edit.jpg');
+    background-image: url('/connexions-tutoring/assets/images/pencils-edit.jpg');
     background-attachment: fixed;
     background-position: top center;
     background-repeat: no-repeat;
