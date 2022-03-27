@@ -27,10 +27,9 @@ body:not(#joinpage) {
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;}
-/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
-/* @media only screen and (max-device-width: 1366px) {
+@media only screen and (max-device-width: 1366px) {
     .banner-img {
-      background-attachment: scroll;}} */
+        height: 50vh;}}
 .navbar{
     transition: background-color 0.3s ease;
     background-color: rgba(255,255,255,0);}
