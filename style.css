@@ -21,15 +21,13 @@ body:not(#joinpage) {
 /* --------------- navbar -------------- */
 .banner-img{
     background-image: url('/connexions-tutoring/images/og-bg.jpeg');
-    /* height: 50vh;
-    width: 100%; */
     background-attachment: fixed;
     background-position: top center;
     background-repeat: no-repeat;
-    background-size: contain;}
-/* @media only screen and (max-device-width: 1366px) {
+    background-size: cover;}
+@media only screen and (orientation:portrait) {
     .banner-img{
-        height: 50vh;}} */
+        background-image: url('/connexions-tutoring/images/og-bg-portrait.jpeg');}}
 .navbar{
     transition: background-color 0.3s ease;
     background-color: rgba(255,255,255,0);}
