@@ -80,7 +80,7 @@ body:not(#joinpage) {
     font-weight: 600;}
 #testimonials{
     /* margin-top: 2em; */
-    background-image: url('/connexions-tutoring/images/pencils-edit.jpg');
+    background-image: url('/images/pencils-edit.jpg');
     background-attachment: fixed;
     background-position: top center;
     background-repeat: no-repeat;
