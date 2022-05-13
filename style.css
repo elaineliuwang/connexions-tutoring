@@ -20,14 +20,14 @@ body:not(#joinpage) {
 
 /* --------------- navbar -------------- */
 .banner-img{
-    background-image: url('/connexions-tutoring/images/og-bg.jpeg');
+    background-image: url('/images/og-bg.jpeg');
     background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;}
 @media only screen and (max-width: 767px) {
     .banner-img{
-        background-image: url('/connexions-tutoring/images/og-bg.jpeg');
+        background-image: url('/images/og-bg.jpeg');
         background-attachment: fixed;
         background-position: right center;
         background-repeat: no-repeat;
