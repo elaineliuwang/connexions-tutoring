@@ -214,23 +214,23 @@ body:not(#joinpage) {
 .instagram-media{
     margin:0 auto !important;}
 
-form div {
+.contactform {
     margin: 15px 0px;
 }
 
-form h1 {
+.contactform h1 {
     color: #e892bc;
 }
 
-form label,
-form p,
-form a {
+.contactform label,
+.contactform p,
+.contactform a {
     color: #e892bc;
 }
 
-form input,
-form textarea,
-form select {
+.contactform input,
+.contactform textarea,
+.contactform select {
     border: solid 1px #83c8b2;
     border-radius: 7px;
     padding: 0.5em;
@@ -239,23 +239,23 @@ form select {
     transition: 0.25s;
 }
 
-form input:hover,
-form textarea:hover,
-form select:hover {
+.contactform input:hover,
+.contactform textarea:hover,
+.contactform select:hover {
     border-width: 1.5px;
     height: 28.5px;
     width: 198.5px;
     transform: translateY(-0.1em);
 }
 
-form input::placeholder,
-form textarea,
-form select {
+.contactform input::placeholder,
+.contactform textarea,
+.contactform select {
     font-family: Arial, Helvetica, sans-serif;
     color: #8e959a;
 }
 
-form button {
+.contactform button {
     background: #83c8b2;
     color: white;
     border-radius: 5px;
@@ -268,7 +268,7 @@ form button {
     margin-top: 10px;
 }
 
-form button:hover {
+.contactform button:hover {
     background: #8fdac2;
     cursor: pointer;
     transform: translateY(-0.1em);
