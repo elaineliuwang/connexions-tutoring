@@ -214,8 +214,11 @@ body:not(#joinpage) {
 .instagram-media{
     margin:0 auto !important;}
 
-#contactform {
+#contact-us{
     text-align: left;
+    form { 
+        color: #e892bc;
+    }
 }
 
 #contactform label,
