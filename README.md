@@ -1,5 +1,4 @@
-# ConneXions Tutoring
-## FREE Virtual Student-Led Tutoring Service
+# ConneXions Tutoring : FREE Virtual Student-Led Tutoring Service
 
 ### Our Mission
 OUR MISSION
