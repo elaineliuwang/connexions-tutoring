@@ -5,4 +5,4 @@ ConneXions Tutoring started in March 2020 to alleviate the stresses of COVID-19.
 
 [connexionstutoring.com](https://www.connexionstutoring.com/)
 
-Use `bundle exec jekyll serve` serve for testing.
+Use `bundle exec jekyll serve` for testing.
