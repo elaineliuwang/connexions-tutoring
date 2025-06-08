@@ -14,3 +14,4 @@ Drag and drop pictures by converting them into JPEGs in Finder and renaming it. 
 One can use "right click" and "open with live server" to make sure the website looks good before committing and pushing.
 One can use "command slash" to comment or uncomment a block of text. No longer are the days of painstaking arrows!
 Make sure to commit and push if you want one's changes to be published.
+When closing the app after completing one's daily work, one can close the app after saving and committing/pushing.
