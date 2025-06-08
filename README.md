@@ -5,4 +5,5 @@ ConneXions Tutoring started in March 2020 to alleviate the stresses of COVID-19.
 
 [connexionstutoring.com](https://www.connexionstutoring.com/)
 
-Use `bundle exec jekyll serve` for testing.
+Use `bundle exec jekyll serve` for testing. Alternatively (the easier way), one could download the VS Code Extension "Live Server" by Ritwick Dey and employ usage of that by right clicking on the index.html file and selecting "Open with Live Server." Have a great day! Make good choices in life!
+
