@@ -378,14 +378,14 @@ body {
 
 .founder-note-section {
   background: transparent; /* Inherit #about background */
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Arial, 'Trebuchet MS', sans-serif;
   padding: 0rem 0 0rem 0;
-  margin-bottom: 2rem;
+  margin-bottom: 4.5rem;
   border-radius: 0rem;
   box-shadow: none;
 }
 .founder-note-title {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Arial, 'Trebuchet MS', sans-serif;
   font-weight: 700;
   font-size: 2.5rem;
   text-align: center;
@@ -394,7 +394,7 @@ body {
   margin-bottom: 0.25rem;
 }
 .founder-note-name {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Arial, 'Trebuchet MS', sans-serif;
   font-style: italic;
   font-size: 20rem;
   font-weight: 700;
@@ -411,12 +411,12 @@ body {
 .founder-note-text {
   color: #334155;
   font-size: 1.1rem;
-  font-weight: 400;
+  font-weight: 40;
   line-height: 1.7;
   text-align: left;
   margin-top: 1rem;
   margin-bottom: 0;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: Trebuchet MS;
 }
   @media (max-width: 767px) {
     .founder-note-title { font-size: 1.3rem; }
